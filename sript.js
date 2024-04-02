@@ -33,7 +33,7 @@ async function profile(){
     area.innerHTML += persona.results[0].location.state; 
     city.innerHTML += persona.results[0].location.city;
     mail.innerHTML += persona.results[0].email;
-    user.innerHTML += persona.results[0].login.username;
+    user.innerHTML += persona.results[0].login.username; 
     phone.innerHTML += persona.results[0].phone;
     street.innerHTML += persona.results[0].location.street.number + ", ";
     street.innerHTML += persona.results[0].location.street.name + " " +"Street";
